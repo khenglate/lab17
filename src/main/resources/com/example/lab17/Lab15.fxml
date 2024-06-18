@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="20.0" vgap="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab17.Lab15Controller">
+    <children>
+        <Pane prefHeight="300.0" prefWidth="250.0">
+            <children>
+                <Label layoutX="39.0" layoutY="43.0" text="Число" />
+                <TextField fx:id="TextFieldNum" layoutX="91.0" layoutY="39.0" prefHeight="25.0" prefWidth="68.0" text="0" editable="false"/>
+                <Button fx:id="ButtonPlus" layoutX="168.0" layoutY="39.0" mnemonicParsing="false" onAction="#ButtonClickPlus"
+                        prefHeight="25.0" prefWidth="45.0" text="+1" />
+                <Button fx:id="ButtonMinus" layoutX="167.0" layoutY="70.0" mnemonicParsing="false" onAction="#ButtonClickMinus"
+                        prefHeight="25.0" prefWidth="45.0" text="-1" />
+            </children>
+        </Pane>
+    </children>
+
+</GridPane>
